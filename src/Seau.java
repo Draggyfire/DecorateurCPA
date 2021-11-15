@@ -4,7 +4,7 @@ public abstract class Seau {
     public double getPrix(){
         return prix;
     }
-    private void setLibelle(String libelle){
+    public void setLibelle(String libelle){
         this.libelle = libelle;
     }
 

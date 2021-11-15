@@ -1,7 +1,6 @@
 public class SeauSquelette extends Seau {
-    private double prix;
-
-    public SeauSquelette() {
-        this.prix = 1.5;
+    public SeauSquelette(){
+        setPrix(1.5);
+        setLibelle("Seau squelette");
     }
 }
