@@ -1,6 +1,7 @@
 public abstract class Seau {
     private double prix;
     private String libelle;
+
     public double getPrix(){
         return prix;
     }
@@ -19,8 +20,8 @@ public abstract class Seau {
     @Override
     public String toString() {
         return "Seau{" +
-                "prix=" + prix +
-                ", libelle='" + libelle + '\'' +
+                "prix=" + getPrix() +
+                ", libelle='" + getLibelle() + '\'' +
                 '}';
     }
 

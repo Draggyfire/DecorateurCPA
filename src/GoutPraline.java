@@ -9,6 +9,6 @@ public class GoutPraline extends DecorateurSceau{
 
     @Override
     public double getPrix() {
-        return seau.getPrix()+1.;
+        return seau.getPrix()+1.25;
     }
 }
