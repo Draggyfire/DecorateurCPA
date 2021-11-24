@@ -1,6 +1,8 @@
+package Ex1;
+
 public class SeauSquelette extends Seau {
     public SeauSquelette(){
         setPrix(1.5);
-        setLibelle("Seau squelette");
+        setLibelle("Ex1.Seau squelette");
     }
 }

@@ -1,3 +1,5 @@
+package Ex1;
+
 public abstract class Seau {
     private double prix;
     private String libelle;
@@ -19,7 +21,7 @@ public abstract class Seau {
 
     @Override
     public String toString() {
-        return "Seau{" +
+        return "Ex1.Seau{" +
                 "prix=" + getPrix() +
                 ", libelle='" + getLibelle() + '\'' +
                 '}';

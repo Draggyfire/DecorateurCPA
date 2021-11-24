@@ -1,3 +1,5 @@
+package Ex1;
+
 public class GoutCaramel extends DecorateurSceau{
     public GoutCaramel(Seau s){
         seau = s;

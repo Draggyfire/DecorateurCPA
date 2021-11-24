@@ -1,6 +1,8 @@
+package Ex1;
+
 public class SeauCitrouille extends Seau {
     public SeauCitrouille(){
-        setLibelle("Seau Citrouille");
+        setLibelle("Ex1.Seau Citrouille");
         setPrix(2.5);
     }
 }

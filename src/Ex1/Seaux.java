@@ -1,3 +1,5 @@
+package Ex1;
+
 public abstract class Seaux {
     private double prix;
     private String libelle;

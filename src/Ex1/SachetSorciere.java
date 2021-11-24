@@ -1,3 +1,5 @@
+package Ex1;
+
 public class SachetSorciere extends Seaux{
 
     public SachetSorciere() {
